@@ -5,24 +5,21 @@ key = b1656851 699e29fa 24b70148 503d2dfc <br />
 ptxt = 2a78421b 87c7d092 4f26113f 1d1349b2 <br />
 
 # Results from the software implementation 
-## Test1
+## Test1 - Ciphering
 key = b1656851 699e29fa 24b70148 503d2dfc <br />
 plaintext = 2a78421b 87c7d092 4f26113f 1d1349b2 <br />
 ciphertext= e2f687e0 7b75660f fc372233 bc47532c <br />
-## Test2 -  Ciphertext is new plaintext (test repeated 10 times)
+## Test2 -Ciphering of ciphertext as new plaintext (test repeated 10 times)
 
-key = b1656851 699e29fa 24b70148 503d2dfc <br />
-plaintext = 2a78421b 87c7d092 4f26113f 1d1349b2 <br />
+![image](https://user-images.githubusercontent.com/45511879/122646208-4f9f5c00-d11e-11eb-8232-ca981147e2f5.png)
 
-ciphertext= e2f687e0 7b75660f fc372233 bc47532c <br />
-ciphertext= 28125138 9561a6ca 909dc19b c9877721 <br />
-ciphertext= 24a73f9c f97a8690 e58f0d9c 39e063ab <br />
-ciphertext= 092fcf45 be90dc32 8265a213 f492c0c3 <br />
-ciphertext= f4e9d038 9dff8e11 86550bb2 d74bb700 <br />
-ciphertext= 4594524a 797e9cc3 681065d3 911932cb <br />
-ciphertext= 17e156b9 e538ccd3 05d3c2f4 0ab7195c <br />
-ciphertext= b0ad49cd ed4e1c6e 3e135daa bf48c52a <br />
-ciphertext= 42b94d2f e80456ad 113e335f b4fbb2ee <br />
-ciphertext= 6fda512f 6f30bebc 81b60d00 d2782252 <br />
+# Results from the FPGA implementation (Modelsim)
+## Test1 - Ciphering (TbNeokeon)
+![image](https://user-images.githubusercontent.com/45511879/122646356-00a5f680-d11f-11eb-9b71-3389430d0140.png)
 
-# Results from the FPGA implementation 
+## Test2 -Ciphering of ciphertext as new plaintext (test repeated 10 times)(TbNeokeon10)
+![image](https://user-images.githubusercontent.com/45511879/122646470-96418600-d11f-11eb-8180-6ceba8daa276.png)
+![image](https://user-images.githubusercontent.com/45511879/122646490-a9545600-d11f-11eb-8b01-3e810dcdcadc.png)
+<br />
+results are the same.
+
