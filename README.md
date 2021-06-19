@@ -22,4 +22,8 @@ ciphertext= e2f687e0 7b75660f fc372233 bc47532c <br />
 ![image](https://user-images.githubusercontent.com/45511879/122646490-a9545600-d11f-11eb-8b01-3e810dcdcadc.png)
 <br />
 results are the same.
+ALM = 440 <br />
+Clock frequency = 210,7 [Hz] <br />
+Capacity = 26,969 [bits/s] <br /> 
+single encryption time =  0,0047 [s] <br />
 
