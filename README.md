@@ -21,7 +21,7 @@ ciphertext= e2f687e0 7b75660f fc372233 bc47532c <br />
 ![image](https://user-images.githubusercontent.com/45511879/122646470-96418600-d11f-11eb-8180-6ceba8daa276.png)
 ![image](https://user-images.githubusercontent.com/45511879/122646490-a9545600-d11f-11eb-8b01-3e810dcdcadc.png)
 <br />
-results are the same.
+results are the same. <br />
 ALM = 440 <br />
 Clock frequency = 210,7 [Hz] <br />
 Capacity = 26,969 [bits/s] <br /> 
